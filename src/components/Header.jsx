@@ -87,7 +87,7 @@ export default function Header() {
                         transition={{ duration: 0.5 }}
                     >
                         {["Início", "Cursos", "Sobre", "Blog", "Contato"].map((item) => (
-                            <Button key={item} sx={{ color: "white" }}>
+                            <Button key={item} sx={scrolled ? { color: "black", opacity:0.8 }: { color: "white" }}>
                                 <Link to={item === "Início" ? "/" : `/${item.toLowerCase()}`} style={{ textDecoration: "none", color: "inherit" }}>
                                     {item}
                                 </Link>

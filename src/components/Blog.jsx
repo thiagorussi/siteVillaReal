@@ -4,17 +4,17 @@ const blogPosts = [
     {
         title: "A importância do Personal Branding para executivos",
         description: "Descubra como o Personal Branding pode impulsionar sua carreira executiva.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "https://media.istockphoto.com/id/1496947590/pt/foto/human-resources-officer-looking-for-leader-which-is-able-to-leave-his-comfort-zone-and-get-out.jpg?s=612x612&w=0&k=20&c=wUfEct2jZi6Cr1dS8uG04lTPpHWQvAKVAw4YI1xAH_g=",
     },
     {
         title: "Estratégias de networking para fortalecer sua marca pessoal",
         description: "Aprenda técnicas eficazes de networking para expandir sua influência profissional.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "https://media.istockphoto.com/id/1147141252/pt/vetorial/personal-development-personal-and-career-growth-progress-and-potential-concepts-isolated.jpg?s=612x612&w=0&k=20&c=o-M0FFJb8_gy-wYmAKao9nlhfyogn7zyKrY3gllFTyw=",
     },
     {
         title: "Como usar as redes sociais para construir sua autoridade no mercado",
         description: "Dicas práticas para utilizar as redes sociais a favor da sua marca pessoal.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "https://media.istockphoto.com/id/1067478500/pt/foto/business-talents-finding-recruitment-for-hr-human-resource-concept-colorful-arrows-pointing-to.jpg?s=612x612&w=0&k=20&c=5V-Gb9RJOC3TlBeqCUaOcLS9rPledZoQVnQOiUo6RMk=",
     },
 ]
 
