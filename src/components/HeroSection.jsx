@@ -29,7 +29,7 @@ export default function HeroSection() {
                         objectFit: "cover",
                         objectPosition: "top center", // Evita corte no topo
                         position: "absolute",
-                        top: 40, // Ajusta a posição da imagem para não cortar no topo
+                        top: 60, // Ajusta a posição da imagem para não cortar no topo
                         left: 0,
                         opacity: 0.7,
                     }}
