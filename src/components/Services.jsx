@@ -71,6 +71,30 @@ export default function TransformationSection() {
                         </MotionTypography>
                     </Grid>
 
+                    {/* Imagem ilustrativa */}
+                    <Grid item xs={12}>
+                        <Box
+                            sx={{
+                                position: 'relative',
+                                height: { xs: '250px', sm: '350px', md: '450px' },
+                                mb: 6,
+                                mx: 'auto',
+                                maxWidth: '1000px',
+                            }}
+                        >
+                            <img
+                                src={Flor}
+                                alt="Transformação pelo Personal Branding"
+                                style={{
+                                    objectFit: "contain",
+                                    objectPosition: "center",
+                                    width: '100%',
+                                    height: '100%',
+                                }}
+                            />
+                        </Box>
+                    </Grid>
+
                     {/* Comparação Antes x Depois */}
                     <Grid item xs={12} md={6}>
                         <MotionPaper
@@ -112,13 +136,13 @@ export default function TransformationSection() {
                                 <Typography
                                     key={index}
                                     sx={{
-                                        fontSize: "1.2rem",
+                                        fontSize: {xs: "1rem", md: "1.2rem"}, // Dynamic font size
                                         color: "#333",
                                         mb: 2,
                                         lineHeight: 1.4,
-                                        whiteSpace: "nowrap",
-                                        overflow: "hidden",
-                                        textOverflow: "ellipsis"
+                                        overflowWrap: "break-word", // Ensures long words break
+                                        wordWrap: "break-word",  // Legacy support for wordWrap property
+                                        hyphens: "auto"       // Enable hyphenation for cleaner wrapping
                                     }}
                                 >
                                     {point}
@@ -167,14 +191,14 @@ export default function TransformationSection() {
                                 <Typography
                                     key={index}
                                     sx={{
-                                        fontSize: "1.2rem",
+                                        fontSize: {xs: "1rem", md: "1.2rem"},  // Dynamic font size
                                         color: "white",
                                         mb: 2,
                                         fontWeight: 500,
                                         lineHeight: 1.4,
-                                        whiteSpace: "nowrap",
-                                        overflow: "hidden",
-                                        textOverflow: "ellipsis"
+                                        overflowWrap: "break-word",  // Ensures long words break
+                                        wordWrap: "break-word",   // Legacy support for wordWrap property
+                                        hyphens: "auto"        // Enable hyphenation for cleaner wrapping
                                     }}
                                 >
                                     {point}
