@@ -1,0 +1,38 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+
+body {
+  line-height: 1.6;
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+
+body {
+ background: "linear-gradient(135deg, #5B5FEF 0%, #8084FF 100%)";
+}
+
